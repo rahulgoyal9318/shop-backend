@@ -14,5 +14,5 @@ func main() {
 }
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("Hello Mr Rahul i am the boss "))
+	w.Write([]byte("Hello Mr Rahul i am the boss"))
 }
